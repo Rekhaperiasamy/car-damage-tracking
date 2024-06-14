@@ -19,9 +19,6 @@ USERNAME = os.getenv('USERNAME')
 PASSWORD = os.getenv('PASSWORD')
 EXTERNAL_API_URL = os.getenv('EXTERNAL_API_URL')
 
-print(USERNAME)
-
-
 router = APIRouter()
 
 db_session = Database().get_session()
