@@ -17,7 +17,7 @@ load_dotenv()
 
 USERNAME = os.getenv('USERNAME')
 PASSWORD = os.getenv('PASSWORD')
-EXTERNAL_API_URL = os.getenv('EXTERNAL_API_URL')
+EXTERNAL_API_URL = "https://gatiosoft.ro/platebber.aspx"
 
 router = APIRouter()
 
