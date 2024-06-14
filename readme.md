@@ -20,21 +20,20 @@ After the previous steps, App will run on http://0.0.0.0:8000
 
 Go to http://0.0.0.0:8000/docs to access the swagger doc.
 
-There are three endpoints
-
-/marketing-data
-/pie-chart
-/stacked-area-chart
-
 There are seven endpoints
 
 /cars
+
 /damage
+
 /generate-report
 
 /admin/cars
+
 /admin/damage
+
 /admin/cars/{license_plate}
+
 /admin/damage/{license_plate}
 
 All filters and response models are documented in swagger.
