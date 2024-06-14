@@ -10,9 +10,9 @@ Run the following commands.
 
 > docker-compose up --build
 
-> chmod +x script.sh
+> chmod +x setup.sh
 
-> ./script.sh
+> ./setup.sh
 
 # Access the endpoints
 

@@ -10,10 +10,18 @@ import base64
 import requests
 import base64
 import re
+from dotenv import load_dotenv
+import os
 
-USERNAME = "rekha periasamy"
-PASSWORD = "Avira@123!"
-EXTERNAL_API_URL = "https://gatiosoft.ro/platebber.aspx"
+load_dotenv()
+
+USERNAME = os.getenv('USERNAME')
+PASSWORD = os.getenv('PASSWORD')
+EXTERNAL_API_URL = os.getenv('EXTERNAL_API_URL')
+
+print(USERNAME)
+
+
 router = APIRouter()
 
 db_session = Database().get_session()
