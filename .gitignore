@@ -1,0 +1,17 @@
+.env
+venv/
+ENV/
+env/
+venv.bak/
+.venv/
+.env.bak/
+.virtualenv/
+.vscode/
+.history/
+.DS_Store
+__pycache__/
+.cache
+.pytest_cache/
+.Python
+*.db
+instance/

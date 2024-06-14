@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS cars (
+    license_plate VARCHAR PRIMARY KEY,
+    model VARCHAR,
+    color VARCHAR,
+    vin_number VARCHAR UNIQUE,
+    brand VARCHAR
+);
+
+CREATE TABLE IF NOT EXISTS damages (
+    id SERIAL PRIMARY KEY,
+    license_plate VARCHAR REFERENCES cars(license_plate),
+    damage_type VARCHAR,
+    damaged_part VARCHAR,
+    date DATE
+);
